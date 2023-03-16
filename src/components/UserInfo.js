@@ -6,13 +6,15 @@ import UserInfoAbout from "./UserInfoAbout";
 function UserInfo() {
 	return (
 		<section
-			className="h-44 w-100 bg-slate-500 p-4 flex"
+			className="h-44 w-100 p-4 flex"
 		>
 			<Avatar
 				src={avatar}
 				alt={"User avatar."}
-				avatarStyle={
-					"h-36 aspect-square h-36 border-4 border-pink-400 rounded"}
+				borderStyle="h-36 aspect-square border-4 border-pink-500
+				 absolute ring ring-pink-500 rounded-lg
+				  animate-pulse blur-sm"
+				size="h-36"
 			/>
 
 			<UserInfoAbout />
