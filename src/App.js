@@ -1,10 +1,13 @@
 import React from "react";
-import "./App.css";
+import Profile from "./components/Profile";
 
 function App() {
 	return (
-		<div className="App">
-      WIP
+		<div 
+			className="bg-[url('assets/bg.jpg')] h-screen bg-cover bg-center
+			 bg-no-repeat flex flex-row justify-center"
+		>
+			<Profile />
 		</div>
 	);
 }
