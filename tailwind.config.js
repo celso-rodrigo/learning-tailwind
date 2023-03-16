@@ -9,7 +9,12 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			"profile-bg": "url('../assets/bg.jpg')"
+			backgroundImage: {
+				"profile-bg": "url('./assets/bg.jpg')",
+			},
+			fontFamily: {
+				"ubuntu": ["Ubuntu", "ui-sans-serif", "system-ui"],
+			},
 		},
 	},
 	plugins: [],
