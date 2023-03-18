@@ -8,7 +8,10 @@ function UserLevel() {
 		<div className="flex flex-col gap-4 h-44 pt-4">
 			<div className="flex gap-2">
 				<h2 className="text-white text-lg">Nível</h2>
-				<LevelContainer border="border-green-500" level="141"/>
+				<LevelContainer
+					levelBorderColor="border-green-500"
+					level="141"
+				/>
 			</div>
 			<BlackBgEffect>
 				<div className="flex">
