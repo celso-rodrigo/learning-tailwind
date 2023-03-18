@@ -2,6 +2,7 @@ import React from "react";
 import AwardContainer from "./AwardContainer";
 import BadgesContainer from "./BadgesContainer";
 import BlackBgEffect from "./BlackBgEffect";
+import GroupsContainer from "./GroupsContainer";
 import ProfileLinks from "./ProfileLinks";
 import UserLevel from "./UserLevel";
 
@@ -16,6 +17,7 @@ function AsideProfile() {
 				<AwardContainer />
 				<BadgesContainer />
 				<ProfileLinks />
+				<GroupsContainer />
 			</BlackBgEffect>
 		</aside>
 	);
