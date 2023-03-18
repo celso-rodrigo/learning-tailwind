@@ -3,10 +3,12 @@ import Group from "./Group";
 import group1 from "../assets/group1.jpg";
 import group2 from "../assets/group2.jpg";
 import group3 from "../assets/group3.jpg";
+import AsideTitle from "./AsideTitle";
 
 function GroupsContainer() {
 	return (
-		<div>
+		<div className="pt-6">
+			<AsideTitle title="Groups" amount="35" />
 			<Group
 				image={group1}
 				title="Humble Games"
