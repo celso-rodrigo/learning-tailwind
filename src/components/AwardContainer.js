@@ -7,9 +7,9 @@ import award4 from "../assets/award4.png";
 function AwardContainer() {
 	return (
 		<div className="py-1">
-			<h3 className="text-xs text-white">
+			<h3 className="aside-title">
         Prêmios do perfil  
-				<span className="text-lg font-light text-gray-400 pl-2">
+				<span className="aside-number">
           11
 				</span>
 			</h3>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .aside-title {
+    @apply text-xs text-white;
+  }
+
+  .aside-number {
+    @apply text-lg font-light text-gray-400 pl-2;
+  }
+}

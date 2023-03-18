@@ -7,9 +7,9 @@ import badge4 from "../assets/badge4.png";
 function BadgesContainer() {
 	return (
 		<div className="py-1">
-			<h3 className="text-xs text-white">
+			<h3 className="aside-title">
         Insígnias 
-				<span className="text-lg font-light text-gray-400 pl-2">
+				<span className="aside-number">
           269
 				</span>
 			</h3>

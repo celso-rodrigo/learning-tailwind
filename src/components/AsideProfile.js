@@ -2,6 +2,7 @@ import React from "react";
 import AwardContainer from "./AwardContainer";
 import BadgesContainer from "./BadgesContainer";
 import BlackBgEffect from "./BlackBgEffect";
+import ProfileLinks from "./ProfileLinks";
 import UserLevel from "./UserLevel";
 
 function AsideProfile() {
@@ -14,6 +15,7 @@ function AsideProfile() {
 				<p className="text-gray-400 pb-7">Offline</p>
 				<AwardContainer />
 				<BadgesContainer />
+				<ProfileLinks />
 			</BlackBgEffect>
 		</aside>
 	);
