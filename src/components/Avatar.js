@@ -5,11 +5,15 @@ function Avatar(props) {
 	const {src, alt, size, borderStyle} = props;
 
 	return (
-		<div className={`relative ${size}`}>
+		<div className={`relative w-${size} h-${size}`}>
 			<div
-				className={borderStyle}
+				className={`w-${size} h-${size} ${borderStyle} absolute`}
 			/>
-			<img className={`rounded-lg ${size}`} src={src} alt={alt} />
+			<img 
+				className={`rounded-lg w-${size} h-${size}`} 
+				src={src}
+				alt={alt} 
+			/>
 		</div>
 	);
 }

@@ -14,7 +14,7 @@ function UserInfo() {
 				borderStyle="h-36 aspect-square border-4 border-pink-500
 				 absolute ring ring-pink-500 rounded-lg
 				  animate-pulse blur-sm"
-				size="h-36"
+				size="36"
 			/>
 
 			<UserInfoAbout />

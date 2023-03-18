@@ -1,5 +1,5 @@
 import React from "react";
-import LevelContainer from "./AcountLevel";
+import LevelContainer from "./LevelContainer";
 import BlackBgEffect from "./BlackBgEffect";
 import mainBadge from "../assets/main_badge.png";
 
