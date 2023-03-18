@@ -4,7 +4,7 @@ import UserInfo from "./UserInfo";
 function MainProfile() {
 	return (
 		<main
-			className="w-8/12"
+			className="w-8/12 h-full"
 		>
 			<UserInfo />
 		</main>

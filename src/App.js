@@ -4,8 +4,7 @@ import Profile from "./components/Profile";
 function App() {
 	return (
 		<div 
-			className="bg-profile-bg h-screen bg-cover bg-center
-			 bg-no-repeat flex flex-row justify-center"
+			className="bg-profile-bg bg-no-repeat flex justify-center bg-black"
 		>
 			<Profile />
 		</div>
