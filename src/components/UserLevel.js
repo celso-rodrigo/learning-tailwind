@@ -5,9 +5,9 @@ import mainBadge from "../assets/main_badge.png";
 
 function UserLevel() {
 	return (
-		<div className="flex flex-col gap-4 h-44 border p-4">
+		<div className="flex flex-col gap-4 h-44 pt-4">
 			<div className="flex gap-2">
-				<h2 className="text-white text-lg">Level</h2>
+				<h2 className="text-white text-lg">Nível</h2>
 				<LevelContainer border="border-green-500" level="141"/>
 			</div>
 			<BlackBgEffect>
