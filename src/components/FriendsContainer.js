@@ -15,43 +15,43 @@ function FriendsContainer() {
 			<Friend
 				image={friend1}
 				name="Neidrocas" 
-				status={0}
-				border="border-purple-700" 
+				status={1}
+				levelBorderColor="border-purple-700" 
 				level="62"
 			/>
 			<Friend
 				image={friend6}
 				name="mj" 
 				status={1}
-				border="border-yellow-400" 
+				levelBorderColor="border-yellow-400" 
 				level="37"
 			/>
 			<Friend
 				image={friend3}
 				name="Bevastat" 
 				status={1}
-				border="border-red-700" 
+				levelBorderColor="border-red-700" 
 				level="12"
 			/>
 			<Friend
 				image={friend4}
 				name="Bruxinha Agiota" 
 				status={0}
-				border="border-red-700" 
+				levelBorderColor="border-red-700" 
 				level="14"
 			/>
 			<Friend
 				image={friend5}
 				name="PChristinye" 
 				status={1}
-				border="border-red-700" 
+				levelBorderColor="border-red-700" 
 				level="12"
 			/>
 			<Friend
 				image={friend2}
 				name="Trapdoors" 
 				status={0}
-				border="border-red-700" 
+				levelBorderColor="border-red-700" 
 				level="10"
 			/>
 		</div>

@@ -4,16 +4,16 @@ import PropTypes from "prop-types";
 import Avatar from "./Avatar";
 
 function Friend(props) {
-	const {image, name, status, border, level} = props;
+	const {image, name, status, levelBorderColor, level} = props;
 
 	const userStatus = {
-		0: "Disponível",
-		1: "Off-line"
+		1: "Disponível",
+		0: "Off-line",
 	};
 
 	const statusColor = status
-		? "gray-500"
-		: "blue-400";
+		? "text-blue-400"
+		: "text-gray-500";
 
 	return (
 		<div 
@@ -24,19 +24,19 @@ function Friend(props) {
 				<Avatar
 					src={image}
 					alt={`${name} avatar.`}
-					size="8"
-					borderStyle={`border-2 border-${statusColor}`}
+					mainAvatar={false}
+					borderStyle={status}
 				/>
 				<div className="flex flex-col">
-					<p className={`text-xs text-${statusColor}`}>
+					<p className={`text-xs ${statusColor}`}>
 						{name}
 					</p>
-					<p className={`text-xs text-${statusColor}`}>
+					<p className={`text-xs ${statusColor}`}>
 						{userStatus[status]}
 					</p>
 				</div>
 			</div>
-			<LevelContainer border={border} level={level} />
+			<LevelContainer levelBorderColor={levelBorderColor} level={level} />
 		</div>
 	);
 }
@@ -45,7 +45,7 @@ Friend.propTypes = {
 	image: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 	status: PropTypes.string.isRequired,
-	border: PropTypes.string.isRequired,
+	levelBorderColor: PropTypes.string.isRequired,
 	level: PropTypes.string.isRequired,
 };
 

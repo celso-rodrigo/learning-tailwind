@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function LevelContainer({border, level}) {
+function LevelContainer({levelBorderColor, level}) {
 	return (
 		<p 
 			className={`flex justify-center items-center w-7 h-7 
-      text-white font-light text-sm border ${border}`}
+      text-white font-light text-sm border ${levelBorderColor}`}
 		>
 			{level}
 		</p>
@@ -13,7 +13,7 @@ function LevelContainer({border, level}) {
 }
 
 LevelContainer.propTypes = {
-	border: PropTypes.string.isRequired,
+	levelBorderColor: PropTypes.string.isRequired,
 	level: PropTypes.string.isRequired
 };
 
