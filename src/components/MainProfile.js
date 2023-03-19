@@ -1,5 +1,6 @@
 import React from "react";
 import CommentsContainer from "./CommentsContainer";
+import PlayedHistory from "./PlayedHistory";
 import ProfileShowcase from "./ProfileShowcase";
 import UserInfo from "./UserInfo";
 
@@ -10,6 +11,7 @@ function MainProfile() {
 		>
 			<UserInfo />
 			<ProfileShowcase title="Jogo favorito" />
+			<PlayedHistory />
 			<CommentsContainer />
 		</main>
 	);

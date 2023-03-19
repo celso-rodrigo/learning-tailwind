@@ -10,7 +10,7 @@ function GameBadgeContainer(props) {
 
 	return (
 		<div
-			className="flex p-2 gap-2 bg-stone-800 w-1/2 text-xs
+			className="flex p-2 gap-2 bg-stone-900 w-1/2 text-xs
 						 text-white h-12"
 		>
 			<img
