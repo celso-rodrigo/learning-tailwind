@@ -16,8 +16,8 @@ function PlayedGame(props) {
   
 	return (
 		<BlackBgEffect>
-			<div className="flex flex-col gap-">
-				<div className="flex gap-2 justify-between">
+			<div className="flex flex-col gap-2">
+				<div className="flex gap-2">
 					<img 
 						src={gameImage} 
 						alt="Game thumb."
@@ -30,8 +30,8 @@ function PlayedGame(props) {
 						{gameName}
 					</a>
 					<div 
-						className="flex flex-col text-xs text-gray-500 
-          justify-end text-end"
+						className="flex flex-col text-xs ml-auto text-gray-500 
+          justify-end right-0 text-end"
 					>
 						<p>{playTime}</p>
 						<p>{lastPlayed}</p>
