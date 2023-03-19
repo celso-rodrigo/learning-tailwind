@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import GameBadgeContainer from "./GameBadgeContainer";
 
 function GameStatus(props) {
 	const {
@@ -12,20 +13,11 @@ function GameStatus(props) {
 
 	return (
 		<div className="flex gap-8">
-			<div
-				className="flex p-2 gap-2 bg-stone-800 w-1/2 text-xs
-						 text-white h-12"
-			>
-				<img
-					src={favGameBadge} 
-					alt="Favorite game badge."
-					className="h-8"
-				/>
-				<div className="flex flex-col">
-					<p>{badgeName}</p>
-					<p>{`${xp} XP`}</p>
-				</div>
-			</div>
+			<GameBadgeContainer
+				gameBadge={favGameBadge}
+				badgeName={badgeName}
+				xp={xp}
+			/>
 			<div
 				className="w-1/2 flex flex-col font-light gap-2"
 			>
