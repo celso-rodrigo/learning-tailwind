@@ -17,8 +17,8 @@ function Friend(props) {
 
 	return (
 		<div 
-			className="flex w-full items-center py-1 justify-between 
-      hover:bg-green-400/30 p-1 cursor-pointer"
+			className="flex w-60 items-center py-1 justify-between 
+      hover:bg-green-400/30 p-1 cursor-pointer md:w-full"
 		>
 			<div className="flex gap-2">
 				<Avatar

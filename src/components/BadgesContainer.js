@@ -9,7 +9,10 @@ function BadgesContainer() {
 	return (
 		<div className="py-1">
 			<AsideTitle title="Insígnias" amount="269" />
-			<div className="flex justify-between">
+			<div 
+				className="flex justify-center gap-8 pt-2 
+				md:justify-between md:gap-0"
+			>
 				<img src={badge1} alt="Profile badge." className="h-10"/>
 				<img src={badge2} alt="Profile badge." className="h-10"/>
 				<img src={badge3} alt="Profile badge." className="h-10"/>

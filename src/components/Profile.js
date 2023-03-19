@@ -17,7 +17,7 @@ function Profile() {
 				<UserInfo />
 				<UserLevel />
 			</div>
-			<div className="flex">
+			<div className="flex flex-col-reverse gap-4 md:flex-row md:gap-0">
 				<MainProfile />
 				<AsideProfile />
 			</div>

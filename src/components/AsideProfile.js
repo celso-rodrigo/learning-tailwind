@@ -9,15 +9,22 @@ import ProfileLinks from "./ProfileLinks";
 function AsideProfile() {
 	return (
 		<aside
-			className="w-4/12 px-2 h-full"
+			className="px-2 md:h-full md:w-4/12"
 		>
 			<BlackBgEffect>
-				<p className="text-gray-400 pb-7">Offline</p>
-				<AwardContainer />
-				<BadgesContainer />
-				<ProfileLinks />
-				<GroupsContainer />
-				<FriendsContainer />
+				<div className="flex flex-col gap-4 md:gap-0">
+					<p 
+						className="text-center text-lg text-gray-400 
+					md:pb-7 md:text-left"
+					>
+					Offline
+					</p>
+					<AwardContainer />
+					<BadgesContainer />
+					<ProfileLinks />
+					<GroupsContainer />
+					<FriendsContainer />
+				</div>
 			</BlackBgEffect>
 		</aside>
 	);

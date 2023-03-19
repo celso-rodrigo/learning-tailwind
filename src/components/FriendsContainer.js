@@ -12,48 +12,53 @@ function FriendsContainer() {
 	return (
 		<div className="flex flex-col pt-6">
 			<AsideTitle title="Friends" amount="116" />
-			<Friend
-				image={friend1}
-				name="Neidrocas" 
-				status={1}
-				levelBorderColor="border-purple-700" 
-				level="62"
-			/>
-			<Friend
-				image={friend6}
-				name="mj" 
-				status={1}
-				levelBorderColor="border-yellow-400" 
-				level="37"
-			/>
-			<Friend
-				image={friend3}
-				name="Bevastat" 
-				status={1}
-				levelBorderColor="border-red-700" 
-				level="12"
-			/>
-			<Friend
-				image={friend4}
-				name="Bruxinha Agiota" 
-				status={0}
-				levelBorderColor="border-red-700" 
-				level="14"
-			/>
-			<Friend
-				image={friend5}
-				name="PChristinye" 
-				status={1}
-				levelBorderColor="border-red-700" 
-				level="12"
-			/>
-			<Friend
-				image={friend2}
-				name="Trapdoors" 
-				status={0}
-				levelBorderColor="border-red-700" 
-				level="10"
-			/>
+			<div
+				className="flex flex-col items-center pt-4 
+				md:items-start md:pt-0"
+			>
+				<Friend
+					image={friend1}
+					name="Neidrocas" 
+					status={1}
+					levelBorderColor="border-purple-700" 
+					level="62"
+				/>
+				<Friend
+					image={friend6}
+					name="mj" 
+					status={1}
+					levelBorderColor="border-yellow-400" 
+					level="37"
+				/>
+				<Friend
+					image={friend3}
+					name="Bevastat" 
+					status={1}
+					levelBorderColor="border-red-700" 
+					level="12"
+				/>
+				<Friend
+					image={friend4}
+					name="Bruxinha Agiota" 
+					status={0}
+					levelBorderColor="border-red-700" 
+					level="14"
+				/>
+				<Friend
+					image={friend5}
+					name="PChristinye" 
+					status={1}
+					levelBorderColor="border-red-700" 
+					level="12"
+				/>
+				<Friend
+					image={friend2}
+					name="Trapdoors" 
+					status={0}
+					levelBorderColor="border-red-700" 
+					level="10"
+				/>
+			</div>
 		</div>
 	);
 }

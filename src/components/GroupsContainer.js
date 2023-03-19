@@ -9,24 +9,28 @@ function GroupsContainer() {
 	return (
 		<div className="pt-6">
 			<AsideTitle title="Groups" amount="35" />
-			<Group
-				image={group1}
-				title="Humble Games"
-				members="143,807"
-				main={true}
-			/>
-			<Group
-				image={group2}
-				title="United Gaming Clans"
-				members="31,108"
-				main={false}
-			/>
-			<Group
-				image={group3}
-				title="Reddit"
-				members="207,990"
-				main={false}
-			/>
+			<div 
+				className="flex flex-col items-center md:items-start"
+			>
+				<Group
+					image={group1}
+					title="Humble Games"
+					members="143,807"
+					main={true}
+				/>
+				<Group
+					image={group2}
+					title="United Gaming Clans"
+					members="31,108"
+					main={false}
+				/>
+				<Group
+					image={group3}
+					title="Reddit"
+					members="207,990"
+					main={false}
+				/>
+			</div>
 		</div>
 	);
 }

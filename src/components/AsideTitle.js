@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function AsideTitle({title, amount}) {
 	return (
-		<a className="flex items-baseline">
+		<a className="flex justify-center items-baseline md:justify-start">
 			<h3 
 				className="underline-link"
 			>

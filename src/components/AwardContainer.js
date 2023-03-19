@@ -9,7 +9,10 @@ function AwardContainer() {
 	return (
 		<div className="py-1">
 			<AsideTitle title="Prêmios do perfil" amount="11"/>
-			<div className="flex justify-between">
+			<div 
+				className="flex justify-center gap-8 pt-2 
+				md:justify-between md:gap-0"
+			>
 				<img src={award1} alt="Profile award." className="h-10"/>
 				<img src={award2} alt="Profile award." className="h-10"/>
 				<img src={award3} alt="Profile award." className="h-10"/>
