@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 function Group({image, title, members, main}) {
 	return (
 		<div className={`flex gap-2 py-1 ${main && "pb-4"}`}>
-			{console.log(main)}
 			<img 
 				className={main ? "h-14" : "h-7"}
 				src={image}

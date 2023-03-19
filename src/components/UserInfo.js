@@ -6,7 +6,7 @@ import UserInfoAbout from "./UserInfoAbout";
 function UserInfo() {
 	return (
 		<section
-			className="h-44 w-100 flex"
+			className="h-44 w-100 flex pt-4"
 		>
 			<Avatar
 				src={avatar}

@@ -7,7 +7,7 @@ function ProfileShowcase({title}) {
 	return (
 		<div>
 			<h2
-				className="font-light text-white p-1 w-full 
+				className="font-light text-white p-1 pl-2 w-full 
         bg-gradient-to-r from-teal-800 to-purple-900"
 			>
 				{title}
