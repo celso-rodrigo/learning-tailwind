@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .underline-link {
+    @apply text-xs text-white hover:underline;
+  }
+
+  .blue-link {
+    @apply text-white hover:text-blue-400;
+  }
+}
