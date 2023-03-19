@@ -24,7 +24,7 @@ function GameStatus(props) {
 				<div className="flex justify-around text-xs">
 					<a 
 						href="" 
-						className="text-white hover:text-blue-400"
+						className="blue-link"
 					>
 								Progresso em conquistas
 					</a>

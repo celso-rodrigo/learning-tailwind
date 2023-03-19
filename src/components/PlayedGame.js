@@ -25,7 +25,7 @@ function PlayedGame(props) {
 					/>
 					<a 
 						href="" 
-						className="text-xs text-white hover:text-blue-400"
+						className="blue-link text-xs"
 					>
 						{gameName}
 					</a>

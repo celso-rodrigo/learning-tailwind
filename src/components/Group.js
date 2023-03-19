@@ -12,7 +12,7 @@ function Group({image, title, members, main}) {
 			<div 
 				className="flex flex-col justify-center text-xs"
 			>
-				<a className="text-white hover:text-blue-400" href="">
+				<a className="blue-link" href="">
 					{title}
 				</a>
 				<p className="text-gray-400">{`${members} membros`}</p>

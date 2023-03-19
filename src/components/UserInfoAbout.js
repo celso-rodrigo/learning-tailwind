@@ -14,7 +14,7 @@ function UserInfoAbout() {
 			</p>
 			<a 
 				href="" 
-				className="text-xs text-white font-light pb-4 hover:underline"
+				className="underline-link"
 			>
         Why you have to be so amazing?
 			</a>

@@ -5,7 +5,7 @@ function AsideTitle({title, amount}) {
 	return (
 		<a className="flex items-baseline">
 			<h3 
-				className="text-xs text-white hover:underline"
+				className="underline-link"
 			>
 				{title}
 			</h3> 
