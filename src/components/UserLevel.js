@@ -5,8 +5,8 @@ import mainBadge from "../assets/main_badge.png";
 
 function UserLevel() {
 	return (
-		<div className="flex flex-col gap-4 h-44 pt-4">
-			<div className="flex gap-2">
+		<div className="flex flex-col m-auto gap-4 h-44 pt-4 pl-2 md:w-1/3">
+			<div className="flex gap-2 justify-center md:justify-start">
 				<h2 className="text-white text-lg">Nível</h2>
 				<LevelContainer
 					levelBorderColor="border-green-500"
